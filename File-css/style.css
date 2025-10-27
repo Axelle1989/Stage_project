@@ -1,0 +1,181 @@
+
+*{
+  font-family: 'Manrope';
+  
+}
+
+h1{
+  opacity: 0.7;
+  font-size: 3.5em;
+  color:black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: rgb(12, 11, 11);
+    text-decoration: none;
+    font-size: 1em;
+
+}
+
+em {
+  color: #a5b4fc;
+  font-style: normal;
+}
+
+.p11, .p22 {
+font-size: 1.1em
+
+}
+
+.l11 {
+
+font-size: 1em;
+
+}
+
+.banniere {
+  padding: 100px;
+  background-image: url('vue-3d-du-soleil-ciel-paysage-naturel_23-2150953631.jpg');
+}
+
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: white;
+}
+
+h2 {
+  color: #831886;
+}
+
+p,li {
+  font-size: 1.1em;
+  color: #041607;
+}
+
+header,
+footer {
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+
+.cta {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: rgb(109, 12, 12);
+  border-radius: 50px;
+}
+
+.competences {
+  border-right: 1px solid #509993;
+  border-bottom: 1px solid #0a0330;
+  padding: 50px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.cta:hover {
+  background: linear-gradient(#585180, #191cb4);
+  text-decoration: none;
+}
+
+.competences h2 {
+  margin-top: 30px;
+}
+
+.competences ul {
+  margin-top: 30px;
+}
+
+.a-propos {
+  width: 50%;
+  margin: auto;
+}
+
+footer,
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 30px;
+}
+.accueil {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+}
+
+
+.accueil-photos {
+  padding: 80px;
+}
+
+.accueil-photos {
+  display: flex ;
+  flex-direction: row;
+  gap: 1270px;
+}
+
+.Picture {
+  padding: 100px;
+  background: linear-gradient(90deg, #8360c3, #2ebf91);
+}
+.h11 {
+   padding: 100px;
+  background: linear-gradient(90deg, #ca9219, #2ebf91);
+}
+@keyframes myAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.accueil-photos, .Picture, .twi, .h11, .insta,.logo, .lien{
+  animation-name: myAnimation;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+
+.twi, .insta {
+    width: 50px;
+    height: 50px;
+ }
+
+ :required {
+    background-color:#F2A3BB;
+}
+
+@keyframes myAnimations {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.accueil-photo {
+  animation-name: myAnimations;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
