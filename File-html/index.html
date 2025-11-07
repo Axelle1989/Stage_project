@@ -1,77 +1,76 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>Accueil - Robbie Lens Photographie</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.google.com/specimen/Montserrat?preview.size=54&query=Montserrat" rel="stylesheet">
-        <link href="https://fonts.google.com/specimen/Manrope?preview.size=54&query=Manrope" rel="stylesheet">
-        <link href="../File-css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="index.html"><img class="logo1" src="../images/logo.png" alt="Page index"></a><br>
-                <a href="index.html">Accueil</a><br>
-                <a target="_blank" href="a-propo.html">À propos</a><br>
-            </nav>
-            <div class="Picture">
-                <h1>Bienvenue✨</h1>
-            </div>
-        </header>
-        <main>
-            <section class="accueil">
-                <h1>Bougez à votre rythme💃🏿</h1>
-                <p>
-                    Où <em>le sport</em> s'allie avec <em>passion</em>. Depuis des siècles la dance a toujours été le coeur du monde
-                    , venez nous montrez ce que vous avez au fond
-                </p>
-                <img src="../images/element-7.jpeg" alt="Portrait avec effet de la photographe Robbie Lens" >
-                <div><br>
-                    <a href="" class="cta">Envie de dance🤭? Venez🥳</a>
-                </div>
-                <section class="accueil-photos">
-                    <div classe="first-picture">
-                        <img src="../images/selement-1.png" alt="Dancez a votre rythme 🥹" ><br>
-                        <img src="../images/element-2.jpeg" alt="Allez avec l'inspiration🥹" ><br>
-                        <img src="../images/element-3.png" alt="Liberez-vous🤭" ><br>
-                    </div>
-                    <div classe="seconde picture">
-                        <img src="../images/element-4.jpeg" alt="Restez dans la creativité" ><br>
-                        <img src="../images/element-5.jpeg" alt="Restez dans la tendance" ><br>
-                        <img src="../images/element-6.jpeg" alt="Hola hola dance🤭" ><br>
-                    </div>
-                </section>
-                <section>
-                    <img src="../images/element-45.png" alt="Hola hola dance🤭" ><br>
-                    <form onsubmit="return validateForm()" action="envoi.html" method="post">
-                        <div>
-                            <label>Votre Nom</label> : <input type="text" name="nom" placeholder="Ex: TOUFICK" id="nom">
-                        </div><br>
-                        <div>
-                            <label>Votre prénom</label> : <input type="text" name="prenom" placeholder="Ex: Alexis" id="prenom">
-                        </div><br>
-                        <div>
-                            <label>Votre Age</label> : <input type="number" name="Age" placeholder="Ex: 14" id ="age">
-                        </div><br>
-                        <div>
-                            <label>Votre email fonctionnel</label> : <input type="email" name="gmail" placeholder="Ex: prénom.nom@domaine.com." size="30" id="email" required>
-                        </div><br>
-                        <div>
-                            <button type=Follow link"submit">Envoyer</button>
-                        </div><br>
-                    </form>
-                </section>
-        </main>
-        <div>
-            <a target="_blank" href="https://www.tiktok.com/@axelle.hossou?_t=ZM-8zQaIIT8VJW&_r=1" class="cta">Accédez a nos réseaux sociaux📱🎵 via..</a>
-            </div>
-        <footer>
-            <a target="_blank" href="a-propo.html"><img class="logo" src="../images/logo.png" alt="Propo"></a><br>
-            <a target="_blank" href="https://twitter.com/" ><img class="twi" src="../images/twitter.jpeg" alt="Logo Twitter" ></a><br>
-            <a target="_blank" href="https://www.instagram.com/" ><img class="insta" src="../images/instagram.jpeg" alt="Logo Instagram" ></a><br>
-            <script src="../File-js/script.js">
-            </script>
-    </body>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web-Site-of-Nocibe</title>
+<link href="../dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <header class="bg-white shadow-md py-4 px-6 flex items-center justify-between">
+    <a href="a-propo.html" class="flex items-center mr-8">
+      <img 
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAACUCAMAAABCx6fPAAAA8FBMVEX///8BMf0AzP////0ANPwAAPX///vh9/vX9vrL2f4Ayfv2/v+28Pn7/fhi1/wryPjp+/mWq/gAKfkAzvp12fh4pfsAxv7S5foAI/qs6PlTafeFwPrZ8v3///YAAOzV2f+7v/hda/Svuu3w9PcANfbl6P1ud/o1Q/oAE/dPV/jIz/iw8/ae6u3V+vnH8PHB+PDU+vCIwu6EoffH4/DD0e42Q+/Kze2/xvensu9i0+qSm+6MlfN/he80zu92ffXV3O6E3/VurfefwPG93/ZYXvWa5PGbpern6/aT0fR/t/gYWPGOr/JvkvFci/NLf/aozPKbU/JtAAAGa0lEQVR4nO2cjXOiRhTAMQ8WAyElmFgudUn4UNFcuPYqSoVAemdCe/36//+b7oLmzMVMdcYZm+X9MhMQcAZ+vvd2gQVJQhAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAR0Xfl0Du8f/T2yc3JDtycvL899D7vHbUtASHA//i0mifVv/XPTx+BqJF56H3eN9zBDpuDpH5QRYsEtb1bhhtqRJg3gQBp5+NRI0k0CeaPOtkhGQDMNg8GgSQAtH/6eLYT858lsSTwMj+JFdu2tsc5BhBKAjEjnUxju7U9snJMhJIA5g1r7sk4sOVdJIBQ6aCf1F2eWWBtbYFJkASSQJgDwnsIxEjCrS0IJkG6MclqNtm6LIgm4Rfe4FdzYMyVZkowTruRRKtZIH4aNlKCdKpp6lNC+Nl2FgSTAEzC3dOpEynzrRpK4SR0tKM7fXneALQcbNNECCdBO/oaC0QihWtZ9iYsW5YFlnCkdc5rC4RVx8nla8giRwKToN3rVXUE0M1fP6m9r7Q51dznQGgJTIN2b/K6AHpkXoymlLzYkJDvxY4ETueBZ4R+26YX9mhCX2zYDAnMAki3tzpcBOGoT7696toMCdrdO1BVXYILWQ4XJXyTEc2QwMrjg8qXMAmy5fpNlMCL4zm/ssAltGRr4D+PhYZIOOquJLDDDKyc0vWy0EAJPCOyZw1lUyRoa5HAgyFdD4WGSrDkx7WMaKgE2Wol0HQJrZYdJOy8sr4/11gJshVfG8vq2FgJLdkejQ2oetDNlcAsLK5YRkiNltCSQ3dCGh4J3MKg5PkAjZYg23lJ+dXHJktgsZD5pNkS2BEHTmZAo9OhCoYwY12mZkvgdSEjtGESrBcSWvZZoySQi0B+ThDIbFGiNkgC/ahsxJkPGyMB9N9+2MzvX8KmSFAj4+XtJ36X8tbsBVYjJBD99pVx3u1IIpOVBbEl6JGvbwoEPp5bAuN4OcxPbAm3mx7jAELaUXWhzfCGlQWBJXTPI3XDgx+GoasfVvOfKgu1BGGG+q9L6Nw9vNvMg7TMETD/GNpCS9A0rbuZTm8lAcwzVhcqCXwsw2F3fl+sS3gV7ehu+ZuzyqBeMAuVBFYoDrvz+2IrCUzDabuqjEBYEvxptfgo90iQZNhaQkc7rcZAA38UsPeXpRyTXnTofd8bW0pY3beXqgaz97dyHPV0aadnCP/HbCvhSOsuLYDELHz55wT4FegD7/2e2FoCjwVjNfAVPp/ozAY0LRL4gJ7z1WOD5mtnGG+UbSV0tK7Wua+/w58cMw6613sF+Ch3TTviA5z/A75F54HXATMyBcmDGlimQ3e7cOh2TgjRP5iSIBWxhkvo7IDWeadHOz1R/AYAOP9uJzp3701RugdPgGruhipWu1ADvLkn8NQDeLH+2fJ6uvwvTESQaoAal1C9O4T3AaGWUk/qF4hIxvJdIka9vB6xwNaL0V/y+yWRoOgbQKjf79cH5fcLfh+6KH2/7DN8Qqtp6fM+s1EWfX4hEtgKIRzAeJCVxFi4BYFZdjk467Pf9yp13XRKi0VWFNmAkfp0ziZuPmFrjVnu5vMpi47BIBHj7OE6UFJqKPaEeEE4tJRBSacjJR46cXmsjK7Gw3AYW84MLpVWHC/G7JhncciXUKlwlMtvx8K/Ta6HdugZilWUQysbJwsl8V1nMJ3mqV9JiINkwhaCG7rT8ZgdM6Rh/OjNdSCpMhzOhOgyMAl2MGUSpsplQehcyb3YKSgpfVpLkPM0HpXEDUdZ9sjOGGBuB4MsocQYBmd2KoiE4WU4sqxi5risGJ7Z7mOsGLyZWEqwW4EVF9S1A9nKeWtaPgZKGCR0qgx6oesf+gD2wfUwKGI7sIq+E4+pnylZMVISSr3xUkJwXWbWgLh2XvZLyiWMp+Mv4QjyMHDteCZCUUiGgVE4TII/UEb5QGYVL3WCPGPp3lcWVTrMR3bMJMRplk5Zz+ExdrORvSBhK88XQuQDSWylpJ6iTEiZO4oSzFgPKGUzTmZMnPhqHFRDEzzi8qmVEPDTakkxUyzd95xF/+1LkPozz5cIq/sA/iQZl5TVf6M48woq+d7YL2ee581KSqcenyl4L7GcPSY+LVjCgM/WvX0JYPBXBVHKyz6hVY/YqDrQVDKg7kgDUD"
+        alt="Logo"
+        class="h-44 w-auto"
+      />
+    </a>
+
+    <nav class="flex space-x-6 text-lg font-medium">
+
+      <div class="relative group">
+        <button class="hover:text-blue-600">Accueil</button>
+        <div class="absolute  mt-2 w-48 bg-white shadow-lg rounded-md group-hover:opacity-100 invisible group-hover:visible transition-all duration- z-10">
+          <a href="" class="block px-4 py-2 hover:bg-gray-100">Option 1</a>
+          <a href="" class="block px-4 py-2 hover:bg-gray-100">Option 2</a>
+          <a href="" class="block px-4 py-2 hover:bg-gray-100">Option 3</a>
+        </div>
+      </div>
+
+      <div class="relative group">
+        <button class="hover:text-blue-600">Activités</button>
+        <div class="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 z-10">
+          <a href="" class="block px-4 py-2 hover:bg-gray-100">Activité 1</a>
+          <a href="" class="block px-4 py-2 hover:bg-gray-100">Activité 2</a>
+          <a href="" class="block px-4 py-2 hover:bg-gray-100">Activité 3</a>
+        </div>
+      </div>
+
+      <div class="relative group"> <footer class="bg-gray-900 text-center text-white py-8">
+    <p class="text-gray-400">Tous droits réservés.</p>
+  </footer>
+        <button class="hover:text-blue-600">Actualités</button>
+        <div class="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 z-10">
+          <a href="" class="block px-4 py-2 hover:bg-gray-100">Actualité 1</a>
+          <a href="" class="block px-4 py-2 hover:bg-gray-100">Actualité 2</a>
+          <a href="" class="block px-4 py-2 hover:bg-gray-100">Actualité 3</a>
+        </div>
+      </div>
+
+      <div class="relative group">
+        <button class="hover:text-blue-600">À propos</button>
+        <div class="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 z-10">
+          <a href="" class="block px-4 py-2 hover:bg-gray-100">Notre équipe</a>
+          <a href="" class="block px-4 py-2 hover:bg-gray-100">Nos valeurs</a>
+          <a href="" class="block px-4 py-2 hover:bg-gray-100">Contact</a>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+ <footer class="bg-gray-900 text-center text-white py-8">
+    <p class="text-gray-400">Tous droits réservés.</p>
+  </footer>
+  <main class="p-8 text-center">
+    <h1 class="text-3xl font-bold mb-4">Bienvenue 🌍</h1>
+    <p class="text-lg text-gray-700 mb-6">Découvrez nos dernières activités, actualités et bien plus encore.</p>
+    <a href="https://www.tiktok.com/@axelle.hossou?_t=ZM-8zQaIIT8VJW&_r=1" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition">Accédez à nos réseaux sociaux📱🎵 via TikTok</a>
+  </main>
+
+  <footer class="bg-gray-900 text-center text-white py-8">
+    <p class="text-gray-400">Tous droits réservés.</p>
+  </footer>
+
+</body>
 </html>
