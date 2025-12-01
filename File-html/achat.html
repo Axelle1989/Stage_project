@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="../dist/output.css" rel="stylesheet">
-    <title>Achat de Ciment</title>
-  </head>
-  <body class="bg-blue-50 font-sans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Achetez votre ciment NOCIBE en ligne facilement et faites-vous livrer partout au Bénin.">
+  <link href="../dist/output.css" rel="stylesheet" />
+  <title>Achat de Ciment - NOCIBE Bénin</title>
+</head>
+
+<body class="bg-blue-50 font-sans">
+
 <header class="bg-white shadow fixed top-0 left-0 w-full z-10">
-  <div class="container flex justify-between">
-            <a href="index.html">
-                <img class="" src="data:image/png;base64,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" alt="Logo">
-            </a>
-            <nav class="flex gap-6 items-center">
-                <div class="relative group">
-                    <button class="font-semibold text-blue-700 hover:text-blue-900 focus:outline-none">Qui sommes nous ?</button>
-                    <div class="absolute left-0 mt-2 w-48 bg-white opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all">
-                        <a href="a-propo.html#picture" class="block px-4 py-2 hover:bg-blue-50">Histoire</a>
-                        <a href="a-propo.html#picture" class="block px-4 py-2 hover:bg-blue-50">Nos valeurs</a>
-                        <a href="a-propo.html#picture" class="block px-4 py-2 hover:bg-blue-50">Notre spécialités</a></div>
+            <div class="container flex justify-between">
+                <a href="index.html">
+                    <img class="" src="data:image/png;base64,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" alt="Logo">
+                </a>
+                <nav class="flex gap-6 items-center">
+                    <div class="relative group">
+                        <button class="font-semibold text-blue-700 hover:text-blue-900 focus:outline-none">Qui sommes nous ?</button>
+                        <div class="absolute left-0 mt-2 w-48 bg-white opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all">
+                            <a href="a-propo.html#picture" class="block px-4 py-2 hover:bg-blue-50">Histoire</a>
+                            <a href="a-propo.html#picture" class="block px-4 py-2 hover:bg-blue-50">Nos valeurs</a>
+                            <a href="a-propo.html#picture" class="block px-4 py-2 hover:bg-blue-50">Notre spécialités</a>
+                        </div>
                     </div>
                     <div class="relative group">
                         <button class="font-semibold text-blue-700 hover:text-blue-900 focus:outline-none">Nos services</button>
@@ -33,139 +37,95 @@
                             Contactez-nous
                         </a>
                     </div>
-                </div>
-            </nav>
-        </div>
-        <div class="border-4 border-indigo-600"></div>
+                </nav>
+            </div>
+            <div class="border-4 border-indigo-600">
+            </div>
     </header><br><br><br><br><br><br><br><br>
-    <div class="md:w-1/2 bg-gray-50 rounded-lg p-6 border border-gray-200 shadow-sm text-center mx-auto bg-white">
-      <p class="text-gray-700 leading-relaxed mb-4">
-        <strong>Fini les déplacements</strong> pour vos achats de ciment ou les multiples appels pour nous joindre.
-      </p>
-      <p class="text-gray-700 leading-relaxed mb-4">
-        NOCIBE Bénin vous simplifie la vie : commandez en ligne, à tout moment et de n'importe où, via notre formulaire dédié.
-      </p>
-      <p class="text-blue-900 italic font-medium">
-        Une solution rapide, fiable et disponible pour toutes vos livraisons, dans toutes les régions du pays.
-      </p>
-    </div>
-    <main class="container mx-auto p-6 flex justify-center">
-      <div class="bg-white p-8 rounded shadow-md w-full max-w-md">
-        <h1 class="text-2xl font-bold text-center">Achat de ciment</h1>
-        <form onsubmit="return validateForm()" action="envoi.html" method="post">
-          <div class="mb-4">
-            <label class="block text-blue-700 text-sm font-bold mb-2" for="nom">
-              Nom
-            </label>
-            <input
-            class="shadow border rounded w-full py-2 px-3 text-gray-600 focus:outline-none"
-            id="nom"
-            type="text"
-            placeholder="Ex: TOUFICK"
-            required
-            />
-          </div>
-          <div class="mb-4">
-            <label class="block text-blue-700 text-sm font-bold mb-2" for="prenom">
-              Prenom
-            </label>
-            <input
-            class="shadow border rounded w-full py-2 px-3 text-gray-600 focus:outline-none"
-            id="Prenom"
-            type="text"
-            placeholder="Ex: Alexis"
-            required
-            />
-          </div>
-          <div class="mb-4">
-            <label class="block text-blue-700 text-sm font-bold mb-2" for="email">
-              Email
-            </label>
-            <input
-            class="shadow border rounder w-full py-2 px-3 text-gray-600 focus:outline-none"
-            id="email"
-            type="email"
-            placeholder="Ex: alexis.bedo@gmail.com"
-            required
-            />
-          </div>
-          <div class="mb-4">
-            <label class="block text-blue-700 text-sm font-bold mb-2" for="telephone">
-              Téléphone
-            </label>
-            <input
-            class="shadow border rounded w-full py-2 px-3 text-gray-600 focus:outline-none"
-            id="telephone"
-            type="tel"
-            placeholder="Ex: +229 01 40 44 27 18"
-            required
-            />
-          </div>
-          <div class="mb-4">
-            <label class="block text-blue-700 text-sm font-bold mb-2" for="quantite">
-              Nombres de sacs
-            </label>
-            <input
-            class="shadow border rounded w-full py-2 px-3 text-gray-600 focus:outline-none"
-            id="quantite"
-            type="number"
-            min="1"
-            placeholder="Ex: 1"
-            required
-            />
-          </div>
-          <div class="mb-4">
-            <label class="block text-blue-700 text-sm font-bold mb-2" for="qualité">
-              Catégorie de ciment
-            </label>
-            <select 
-            class="shadow border rounded w-full py-2 px-3 text-gray-700 focus:outline-none"
-            id="qualite"
-            required
-            >
+  <section class="md:w-1/2 bg-white rounded-lg p-6 border border-gray-200 shadow-sm text-center mx-auto mb-8">
+    <p class="text-gray-700 mb-4">
+      <strong>Fini les déplacements</strong> pour acheter votre ciment ou tenter de nous joindre.
+    </p>
+    <p class="text-gray-700 mb-4">
+      NOCIBE Bénin vous simplifie la vie : commandez en ligne, à tout moment.
+    </p>
+    <p class="text-blue-900 italic font-medium">
+      Livraison rapide et fiable dans toutes les régions du pays.
+    </p>
+  </section>
+
+  <main class="container mx-auto p-6 flex justify-center">
+    <div class="bg-white p-8 rounded shadow-md w-full max-w-md">
+      <h1 class="text-2xl font-bold text-center mb-4">Achat de ciment</h1>
+
+      <form onsubmit="return validateForm()" action="envoi.html" method="post">
+
+        <div class="mb-4">
+          <label class="block text-blue-700 font-bold mb-1">Nom</label>
+          <input id="nom" type="text" required class="shadow border rounded w-full py-2 px-3 text-gray-600 focus:outline-none">
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-blue-700 font-bold mb-1">Prénom</label>
+          <input id="prenom" type="text" required class="shadow border rounded w-full py-2 px-3 text-gray-600 focus:outline-none">
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-blue-700 font-bold mb-1">Email</label>
+          <input id="email" type="email" required class="shadow border rounded w-full py-2 px-3 text-gray-600 focus:outline-none">
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-blue-700 font-bold mb-1">Téléphone</label>
+          <input id="telephone" type="tel" required class="shadow border rounded w-full py-2 px-3 text-gray-600 focus:outline-none">
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-blue-700 font-bold mb-1">Nombre de sacs</label>
+          <input id="quantite" type="number" min="1" required class="shadow border rounded w-full py-2 px-3 text-gray-600">
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-blue-700 font-bold mb-1">Catégorie de ciment</label>
+          <select id="qualite" required class="shadow border rounded w-full py-2 px-3 text-gray-700">
             <option value="">Sélectionner une catégorie</option>
-            <option value="">CEM </option>
-            <option value="">CEM </option>
-            <option value="">CEM </option>
-            <option value="">CEM </option>
-            <option value="">CEM </option>
-            <option value="">CEM </option>
-           </select>
-          </div>
-          <div class="mb-4">
-            <label class="block text-blue-700 text-sm font-bold mb-2" for="Date">
-              Date de livraison
-            </label>
-            <input
-            class="shadow border rounded w-full py-2 px-3 text-gray-600 focus:outline-none"
-            id="dat"
-            type="date"
-            required
-            />
-          </div>
-          <div class="mb-4">
-            <label class="block text-blue-700 text-sm font-bold mb-2" for="adresse">
-              Adresse de  livraison 
-            </label>
-            <input
-            class="shadow border rounded w-full py-2 px-3 text-gray-600 focus:outline-none"
-            id="adresse"
-            type="text"
-            placeholder="Entrez votre adresse"
-            required
-            />
-          </div>   
-          <div class="flex items-center justify-between">
-            <button
-            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none"
-            type="submit"
-            >
+            <option value="CEM I 42.5R">CEM I 42.5R</option>
+            <option value="CEM II/A-L 42.5N">CEM II/A-L 42.5N</option>
+            <option value="CEM II/B-L 32.5N">CEM II/B-L 32.5N</option>
+            <option value="CEM II/A-M">CEM II/A-M</option>
+            <option value="CEM II/B-M">CEM II/B-M</option>
+          </select>
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-blue-700 font-bold mb-1">Date de livraison</label>
+          <input id="date" type="date" required class="shadow border rounded w-full py-2 px-3 text-gray-600">
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-blue-700 font-bold mb-1">Adresse de livraison</label>
+          <input id="adresse" type="text" required class="shadow border rounded w-full py-2 px-3 text-gray-600">
+        </div>
+
+        <div class="flex justify-center">
+          <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded">
             Commander
           </button>
         </div>
-      </from>
+
+      </form>
     </div>
   </main>
+
+  <div class="text-center mt-8 mb-12">
+    <a href="achat.html" class="bg-blue-600 text-white px-8 py-4 rounded-lg shadow hover:bg-blue-700 transition mr-4">
+      Acheter du ciment
+    </a>
+    <a href="Formulaire.html" class="bg-white text-blue-600 px-8 py-4 rounded-lg shadow hover:bg-blue-50 transition">
+      Rejoignez notre équipe
+    </a>
+  </div>
+
   <footer id="footer" class="bg-gray-900 text-white py-8">
     <div class="container mx-auto px-6 text-center md:text-left">
       <div class="flex flex-col md:flex-row justify-between items-center">
@@ -181,14 +141,26 @@
             <a href="" class="text-gray-400 hover:text-white transition">Facebook</a>
             <a href="" class="text-gray-400 hover:text-white transition">Instagram</a>
             <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A106777097&keywords=nouvelle%20cimenterie%20du%20benin&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=a6aa615c-897c-43e9-a31a-f2c672aeeb07&sid=.p)&spellCorrectionEnabled=true" class="text-gray-400 hover:text-white transition">LinkedIn</a>
-          </div><br>
-          <a href="Formulaire.html" class="inline-block text-blue-600 px-6 py-3 rounded-lg shadow hover:bg-blue-50 transition"> A la recherche d'un emploi ou d'un stage, cliquez ici</a>
+          </div>
         </div>
       </div>
       <div class="border-t border-gray-800 mt-8 pt-6 text-center text-gray-500 text-sm">
+              <div class="md:w-1/3">
+        <h4 class="text-lg font-semibold mb-4">Envoyez-nous un message</h4>
+        <form action="#" method="POST" class="flex flex-col gap-4">
+          <input type="text" name="name" placeholder="Votre nom" class="p-2 rounded border border-gray-300 text-gray-900" required>
+          <input type="email" name="email" placeholder="Votre email" class="p-2 rounded border border-gray-300 text-gray-900" required>
+          <textarea name="message" rows="4" placeholder="Votre message" class="p-2 rounded border border-gray-300 text-gray-900" required></textarea>
+          <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition">
+            Envoyer
+          </button>
+        </form>
+      </div>
         NOCIBE.
       </div>
     </div>
   </footer>
   </body>
+</html> 
+</body>
 </html>
