@@ -8,36 +8,75 @@
     </head>
     <body class="bg-white-100 font-sans">
 <header class="bg-white shadow fixed top-0 left-0 w-full z-10">
-        <div class="container flex justify-between">
-            <a href="index.html">
-                <img class="" src="data:image/png;base64,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" alt="Logo">
-            </a>
-            <nav class="flex gap-6 items-center">
-                <div class="relative group">
-                    <button class="font-semibold text-blue-700 hover:text-blue-900 focus:outline-none">Qui sommes nous ?</button>
-                    <div class="absolute left-0 mt-2 w-48 bg-white opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all">
-                        <a href="a-propo.html#picture" class="block px-4 py-2 hover:bg-blue-50">Histoire</a>
-                        <a href="a-propo.html#picture" class="block px-4 py-2 hover:bg-blue-50">Nos valeurs</a>
-                        <a href="a-propo.html#picture" class="block px-4 py-2 hover:bg-blue-50">Notre spécialités</a></div>
-                    </div>
-                    <div class="relative group">
-                        <button class="font-semibold text-blue-700 hover:text-blue-900 focus:outline-none">Nos services</button>
-                        <div class="absolute left-0 mt-2 w-48 bg-white opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all">
-                            <a href="fabrication.html" class="block px-4 py-2 hover:bg-blue-50">Fabrication du ciment</a>
-                            <a href="qualité.html" class="block px-4 py-2 hover:bg-blue-50">Qualités du ciment</a>
-                            <a href="achat.html" class="block px-4 py-2 hover:bg-blue-50">Vente du ciment </a>
-                        </div>
-                    </div>
-                    <div class="relative">
-                        <a href="#footer" class="font-semibold text-blue-700 hover:text-blue-900 focus:outline-none">
-                            Contactez-nous
-                        </a>
-                    </div>
-                </div>
-            </nav>
+  <div class="container flex justify-between items-center">
+    <a href="index.html">
+      <img src="data:image/png;base64,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" alt="Logo">
+    </a>
+
+    <nav class="flex gap-6 items-center">
+
+      <!-- QUI SOMMES NOUS -->
+      <div class="relative group">
+        <button class="font-semibold text-blue-700 hover:text-blue-900">Qui sommes-nous ?</button>
+        <div class="absolute left-0 mt-2 w-48 bg-white opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all">
+          <a href="a-propo.html#histoire" class="block px-4 py-2 hover:bg-blue-50">Histoire</a>
+          <a href="a-propo.html#valeur" class="block px-4 py-2 hover:bg-blue-50">Nos valeurs</a>
+          <a href="a-propo.html#specialite" class="block px-4 py-2 hover:bg-blue-50">Nos spécialités</a>
         </div>
-        <div class="border-4 border-indigo-600"></div>
-    </header><br><br><br><br><br><br><br><br>
+      </div>
+
+      <!-- Actualités -->
+      <div class="relative group">
+        <button class="font-semibold text-blue-700 hover:text-blue-900">Actualités</button>
+        <div class="absolute left-0 mt-2 w-48 bg-white opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all">
+          <a href="actualites.html#news" class="block px-4 py-2 hover:bg-blue-50">Dernières nouvelles</a>
+          <a href="actualites.html#communiques" class="block px-4 py-2 hover:bg-blue-50">Communiqués</a>
+          <a href="actualites.html#evenements" class="block px-4 py-2 hover:bg-blue-50">Événements</a>
+        </div>
+      </div>
+
+      <!-- Clients -->
+      <div class="relative group">
+        <button class="font-semibold text-blue-700 hover:text-blue-900">Nos Clients</button>
+        <div class="absolute left-0 mt-2 w-48 bg-white opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all">
+          <a href="clients.html#entreprises" class="block px-4 py-2 hover:bg-blue-50">Entreprises</a>
+          <a href="clients.html#particuliers" class="block px-4 py-2 hover:bg-blue-50">Particuliers</a>
+          <a href="clients.html#partenaires" class="block px-4 py-2 hover:bg-blue-50">Partenaires</a>
+        </div>
+      </div>
+
+      <!-- Produits -->
+      <div class="relative group">
+        <button class="font-semibold text-blue-700 hover:text-blue-900">Produits & Services</button>
+        <div class="absolute left-0 mt-2 w-48 bg-white opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all">
+          <a href="fabrication.html" class="block px-4 py-2 hover:bg-blue-50">Fabrication</a>
+          <a href="qualite.html" class="block px-4 py-2 hover:bg-blue-50">Qualité du ciment</a>
+          <a href="produits.html" class="block px-4 py-2 hover:bg-blue-50">Nos produits</a>
+          <a href="achat.html" class="block px-4 py-2 hover:bg-blue-50">Vente du ciment</a>
+        </div>
+      </div>
+
+      <a href="#footer" class="font-semibold text-blue-700 hover:text-blue-900">Contactez-nous</a>
+
+      <!-- 🔍 Icône de recherche -->
+      <div class="relative group">
+        <button class="text-blue-700 hover:text-blue-900 text-xl">
+          🔍
+        </button>
+
+        <!-- Champ de recherche -->
+        <div class="absolute right-0 mt-2 bg-white p-2 rounded shadow opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+          <input type="text" placeholder="Rechercher..." 
+                 class="border border-gray-300 px-3 py-1 rounded focus:outline-none focus:ring focus:ring-blue-300">
+        </div>
+      </div>
+
+    </nav>
+  </div>
+
+  <div class="border-4 border-indigo-600"></div>
+</header>
+<br><br><br><br><br><br><br><br>
     <main class="p-8 relative flex flex-col md:flex-row gap-8 max-w-5xl mx-auto bg-white rounded-lg shadow-lg items-center justify-center text-center md:text-left">
         <div class="md:w-1/2 bg-gray-50 rounded-lg p-6 border border-gray-200 shadow-sm">
             <h1 class="text-3xl font-bold text-gray-800 mb-4">Bienvenue à NOCIBÉ</h1>
