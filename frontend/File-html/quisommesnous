@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qui sommes-nous ?</title>
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-white font-sans">
+
+<!-- HEADER -->
+<header class="bg-white shadow fixed top-0 left-0 w-full z-10">
+  <div class="container flex justify-between items-center">
+
+    <a href="index.html">
+      <img src="logo.png" alt="Logo" class="h-16">
+    </a>
+
+    <nav class="flex gap-6 items-center">
+      <a href="quisommesnous.html" class="font-semibold text-blue-700 hover:text-blue-900">Qui sommes-nous ?</a>
+      <a href="actualites.html" class="font-semibold text-blue-700 hover:text-blue-900">Actualités</a>
+      <a href="clients.html" class="font-semibold text-blue-700 hover:text-blue-900">Clients</a>
+      <a href="produits.html" class="font-semibold text-blue-700 hover:text-blue-900">Produits & Services</a>
+      <a href="#footer" class="font-semibold text-blue-700 hover:text-blue-900">Contact</a>
+    </nav>
+  </div>
+
+  <div class="border-4 border-indigo-600"></div>
+</header>
+
+<br><br><br><br><br>
+
+<!-- CONTENU PRINCIPAL -->
+<main class="container mx-auto p-6">
+
+    <h1 class="text-4xl text-center my-12 font-bold text-blue-600 bg-gray-50 p-6 rounded-lg shadow">
+        Qui sommes-nous ?
+    </h1>
+
+    <p class="text-center text-gray-700 max-w-2xl mx-auto mb-10">
+        Explorez les différentes dimensions de NOCIBE. Cliquez sur l’un des niveaux pour ouvrir la page correspondante.
+    </p>
+
+    <!-- GRID DES NIVEAUX -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+
+        <!-- HISTOIRE -->
+        <a href="histoire.html" class="group bg-gray-50 p-6 rounded-lg shadow hover:shadow-xl transition block text-center">
+            <h2 class="text-2xl font-bold text-blue-700 mb-2">Histoire</h2>
+            <p class="text-gray-600">
+                Les débuts, l’évolution et la croissance de NOCIBE depuis sa création.
+            </p>
+        </a>
+
+        <!-- VALEURS -->
+        <a href="valeurs.html" class="group bg-gray-50 p-6 rounded-lg shadow hover:shadow-xl transition block text-center">
+            <h2 class="text-2xl font-bold text-blue-700 mb-2">Valeurs</h2>
+            <p class="text-gray-600">
+                Les principes fondamentaux qui guident nos actions au quotidien.
+            </p>
+        </a>
+
+        <!-- SPÉCIFICITÉ -->
+        <a href="specificite.html" class="group bg-gray-50 p-6 rounded-lg shadow hover:shadow-xl transition block text-center">
+            <h2 class="text-2xl font-bold text-blue-700 mb-2">Spécificité</h2>
+            <p class="text-gray-600">
+                Ce qui fait de nous un acteur unique dans l’industrie cimentière.
+            </p>
+        </a>
+
+        <!-- MISSION -->
+        <a href="mission.html" class="group bg-gray-50 p-6 rounded-lg shadow hover:shadow-xl transition block text-center">
+            <h2 class="text-2xl font-bold text-blue-700 mb-2">Mission</h2>
+            <p class="text-gray-600">
+                Notre objectif central : produire un ciment fiable et durable pour le pays.
+            </p>
+        </a>
+
+        <!-- ÉQUIPE -->
+        <a href="equipe.html" class="group bg-gray-50 p-6 rounded-lg shadow hover:shadow-xl transition block text-center">
+            <h2 class="text-2xl font-bold text-blue-700 mb-2">Équipe</h2>
+            <p class="text-gray-600">
+                Les talents et professionnels qui bâtissent NOCIBE chaque jour.
+            </p>
+        </a>
+
+        <!-- VISION -->
+        <a href="vision.html" class="group bg-gray-50 p-6 rounded-lg shadow hover:shadow-xl transition block text-center">
+            <h2 class="text-2xl font-bold text-blue-700 mb-2">Vision</h2>
+            <p class="text-gray-600">
+                Nos objectifs à long terme et notre ambition pour l’avenir.
+            </p>
+        </a>
+
+    </div>
+</main>
+
+<!-- FOOTER -->
+<footer id="footer" class="bg-gray-900 text-white py-8 mt-16">
+    <div class="container mx-auto text-center">
+        <h3 class="font-bold text-lg">NOCIBE – Nouvelle Cimenterie du Bénin</h3>
+        <p class="text-gray-400 mt-2">Contact : nocibe@</p>
+        <p class="text-gray-400">+229 01 47 81 67 78</p>
+
+        <div class="mt-4 flex justify-center gap-6">
+            <a href="#" class="text-gray-400 hover:text-white">Facebook</a>
+            <a href="#" class="text-gray-400 hover:text-white">Instagram</a>
+            <a href="#" class="text-gray-400 hover:text-white">LinkedIn</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
