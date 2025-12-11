@@ -78,12 +78,11 @@
 <main class="container mx-auto p-6">
 
     <h1 class="text-4xl text-center my-12 font-bold text-blue-600 bg-gray-50 p-6 rounded-lg shadow">
-        Qui sommes-nous ?
+        Bien construit, c'est nous !
     </h1>
 
     <p class="text-center text-gray-700 max-w-2xl mx-auto mb-12">
         Découvrez l'identité, l’histoire, les valeurs et les ambitions de NOCIBE.  
-        Sélectionnez une rubrique pour en savoir davantage.
     </p>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
@@ -94,7 +93,7 @@
         </a>
 
         <a href="valeurs.html" class="group bg-gray-50 p-6 rounded-lg shadow hover:shadow-xl transition block text-center">
-            <h2 class="text-2xl font-bold text-blue-700 mb-2">Valeurs</h2>
+            <h2 class="text-2xl font-bold text-blue-700 mb-2">Valeurs && Misions </h2>
             <p class="text-gray-600">Les principes qui guident nos actions et notre engagement.</p>
         </a>
 
@@ -103,19 +102,9 @@
             <p class="text-gray-600">Ce qui fait notre particularité dans l’industrie cimentière.</p>
         </a>
 
-        <a href="mission.html" class="group bg-gray-50 p-6 rounded-lg shadow hover:shadow-xl transition block text-center">
-            <h2 class="text-2xl font-bold text-blue-700 mb-2">Mission</h2>
-            <p class="text-gray-600">Offrir un ciment fiable, durable et accessible à toute la nation.</p>
-        </a>
-
         <a href="equipe.html" class="group bg-gray-50 p-6 rounded-lg shadow hover:shadow-xl transition block text-center">
             <h2 class="text-2xl font-bold text-blue-700 mb-2">Équipe</h2>
             <p class="text-gray-600">Découvrez les professionnels qui bâtissent NOCIBE chaque jour.</p>
-        </a>
-
-        <a href="vision.html" class="group bg-gray-50 p-6 rounded-lg shadow hover:shadow-xl transition block text-center">
-            <h2 class="text-2xl font-bold text-blue-700 mb-2">Vision</h2>
-            <p class="text-gray-600">Nos objectifs pour l’avenir et notre ambition industrielle.</p>
         </a>
 
     </div>
