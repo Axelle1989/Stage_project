@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produits & Services - NOCIBE</title>
+    <title>Contactez-nous - NOCIBE</title>
     <link href="../dist/output.css" rel="stylesheet">
-  </head>
-<body class="bg-white font-sans">
+</head>
+<body class="bg-gray-50 font-sans">
+
 <header class="bg-white shadow fixed top-0 left-0 w-full z-10">
   <div class="container flex justify-between items-center">
     <a href="index.html">
@@ -20,8 +21,9 @@
         <div class="absolute left-0 mt-2 w-48 bg-white opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all">
           <a href="histoire.html" class="block px-4 py-2 hover:bg-blue-50">Histoire</a>
           <a href="equipe.html" class="block px-4 py-2 hover:bg-blue-50">Equipe</a>
-          <a href="valeurs.html" class="block px-4 py-2 hover:bg-blue-50">Valeurs et Misions</a>
-          <a href="specificite.html" class="block px-4 py-2 hover:bg-blue-50">Spécificite</a>
+          <a href="valeurs.html" class="block px-4 py-2 hover:bg-blue-50">Valeurs && Missions</a>
+          <a href="specificite.html" class="block px-4 py-2 hover:bg-blue-50">Specificite</a>
+
         </div>
       </div>
 
@@ -69,47 +71,48 @@
   </div>
 
   <div class="border-4 border-indigo-600"></div>
-</header><br><br><br><br><br><br><br><br><br>
+</header>><br><br><br><br><br><br><br><br><br>
 
-<section class="py-20 bg-gray-100">
-    <h1 class="text-4xl font-bold text-center mb-12 text-blue-700">
-        Nos Produits & Services
-    </h1>
 
-    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+<main class="mt-32 max-w-3xl mx-auto p-8 bg-white rounded-lg shadow-md">
+    <h1 class="text-3xl font-bold text-blue-800 mb-6 text-center">Contactez-nous</h1>
+    <p class="text-gray-700 text-center mb-8">
+        Nous serions ravis de répondre à vos questions ou de discuter de vos besoins. 
+        Remplissez le formulaire ci-dessous et nous vous répondrons rapidement.
+    </p>
 
-        <a href="fabrication.html" 
-           class="block bg-white shadow-lg rounded-xl p-8 text-center hover:shadow-2xl hover:-translate-y-2 transition">
+    <form class="space-y-6">
+        <!-- Nom -->
+        <div>
+            <label for="name" class="block text-gray-700 font-semibold mb-2">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" 
+                   class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
 
-            <img src="Discover the Secrets of Concrete Workability!.jpeg" class="h-24 mx-auto mb-6 opacity-80">
-            <h2 class="text-2xl font-bold text-blue-700 mb-4">Fabrication</h2>
-            <p class="text-gray-600">
-              Découvrez notre processus industriel moderne, conforme aux normes internationales.
-            </p>
-        </a>
+        <!-- Email -->
+        <div>
+            <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+            <input type="email" id="email" name="email" placeholder="votre.email@example.com"
+                   class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
 
-        <a href="produits.html" 
-           class="block bg-white shadow-lg rounded-xl p-8 text-center hover:shadow-2xl hover:-translate-y-2 transition">
+        <!-- Message -->
+        <div>
+            <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Votre message..."
+                      class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
 
-            <img src="Les ventes de ciment en baisse.jpeg" class="h-24 mx-auto mb-6 opacity-80">
-            <h2 class="text-2xl font-bold text-blue-700 mb-4">Nos produits</h2>
-            <p class="text-gray-600">
-              Explorez notre gamme complète de ciments adaptés à tous vos projets.
-            </p>
-        </a>
-        <a href="achat.html" 
-           class="block bg-white shadow-lg rounded-xl p-8 text-center hover:shadow-2xl hover:-translate-y-2 transition">
+        <!-- Bouton -->
+        <div class="text-center">
+            <button type="submit" class="bg-blue-700 hover:bg-blue-800 text-white font-semibold px-6 py-3 rounded-md shadow-md transition">
+                Envoyer
+            </button>
+        </div>
+    </form>
+</main>
 
-            <img src="La durée d’une promesse de vente _ ce qu’il faut savoir.jpeg" class="h-24 mx-auto mb-6 opacity-80">
-            <h2 class="text-2xl font-bold text-blue-700 mb-4">Vente du ciment</h2>
-            <p class="text-gray-600">
-              Commandez facilement nos produits au meilleur prix. Livraison rapide disponible.
-            </p>
-        </a>
-
-    </div>
-</section>
-         <section class="py-12 bg-gray-100 mt-12">
+          <section class="py-12 bg-gray-100 mt-12">
     <h2 class="text-2xl font-bold text-center mb-8">Nos partenaires</h2>
     <div class="flex justify-center gap-12">
         <img src="part1.png" class="h-16 opacity-70 hover:opacity-100 transition">
@@ -117,7 +120,7 @@
         <img src="part3.png" class="h-16 opacity-70 hover:opacity-100 transition">
     </div>
 </section><br><br>
-   <div class="text-center mb-12">
+    <div class="text-center mb-12">
       <a href="achat.html" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg shadow hover:bg-blue-700 transition mr-4">
         Acheter du ciment
       </a>
@@ -125,7 +128,7 @@
         Rejoignez notre équipe
       </a>
     </div>
-  <footer id="footer" class="bg-gray-900 text-white py-8">
+<footer id="footer" class="bg-gray-900 text-white py-8">
     <div class="container mx-auto px-6 text-center md:text-left">
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="mb-6 md:mb-0">
@@ -144,20 +147,20 @@
         </div>
       </div>
       <div class="border-t border-gray-800 mt-8 pt-6 text-center text-gray-500 text-sm">
-              <div class="md:w-1/3">
-        <h4 class="text-lg font-semibold mb-4">Envoyez-nous un message</h4>
-        <form action="#" method="POST" class="flex flex-col gap-4">
-          <input type="text" name="name" placeholder="Votre nom" class="p-2 rounded border border-gray-300 text-gray-900" required>
-          <input type="email" name="email" placeholder="Votre email" class="p-2 rounded border border-gray-300 text-gray-900" required>
-          <textarea name="message" rows="4" placeholder="Votre message" class="p-2 rounded border border-gray-300 text-gray-900" required></textarea>
-          <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition">
-            Envoyer
-          </button>
-        </form>
-      </div>
+        <div class="md:w-1/3">
+          <h4 class="text-lg font-semibold mb-4">Envoyez-nous un message</h4>
+          <form action="#" method="POST" class="flex flex-col gap-4">
+            <input type="text" name="name" placeholder="Votre nom" class="p-2 rounded border border-gray-300 text-gray-900" required>
+            <input type="email" name="email" placeholder="Votre email" class="p-2 rounded border border-gray-300 text-gray-900" required>
+            <textarea name="message" rows="4" placeholder="Votre message" class="p-2 rounded border border-gray-300 text-gray-900" required></textarea>
+            <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition">
+              Envoyer
+            </button>
+          </form>
+        </div>
         NOCIBE.
       </div>
     </div>
-  </footer>
-  </body>
+</footer>
+</body>
 </html>
