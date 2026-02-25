@@ -1176,28 +1176,6 @@ const ValuesPage = () => {
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-3 text-emerald-800 font-medium">
                   <div className="w-2 h-2 rounded-full bg-emerald-500"></div>
-title: "Journée Portes Ouvertes",
-      category: "Événement",
-      date: "05 Fév 2026",
-      image: "data:image/jpeg;base64,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\
--UUU:---  F1  App.tsx        11%   L298   (Fundamental) --------------------------------------------------------------------------------------------------------------------------------
-
-
                   {item}
                 </li>
               ))}
@@ -1800,7 +1778,7 @@ const SalesPage = () => {
                 </div>
                 <div className="space-y-2">
                   <label className="text-xs font-bold text-slate-500 uppercase tracking-widest">Prénom</label>
-i                  <input type="text" placeholder="Ex: Alexis" className="w-full bg-slate-50 border-0 rounded-xl px-6 py-4 focus:ring-2 focus:ring-nocibe-blue outline-none transition-all" required />
+                  <input type="text" placeholder="Ex: Alexis" className="w-full bg-slate-50 border-0 rounded-xl px-6 py-4 focus:ring-2 focus:ring-nocibe-blue outline-none transition-all" required />
                 </div>
               </div>
               <div className="space-y-2">
@@ -1848,6 +1826,10 @@ i                  <input type="text" placeholder="Ex: Alexis" className="w-full
     </div>
   );
 };
+
+// --- Main App ---
+
+// --- Main App ---
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<Page>('home');
